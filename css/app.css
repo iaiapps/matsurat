@@ -1,0 +1,351 @@
+<<<<<<< HEAD
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: Amiri;
+  src: url(../assets/fonts/Amiri-Regular.ttf);
+}
+
+@font-face {
+  font-family: Isepmisbah;
+  src: url(../assets/fonts/LPMQ-IsepMisbah.ttf);
+}
+
+.header {
+  height: 9vh;
+  font-size: 18px;
+}
+
+.menu {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.bagian1 {
+  width: 100%;
+  background-color: #14854f;
+  border: 1px solid white;
+  padding: 20px;
+}
+.bagian2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  border: 1px solid white;
+  padding: 20px;
+  background-color: #14854f;
+}
+
+.box:hover,
+.box:active {
+  transform: scale(95%);
+  transition: all 0.3s;
+}
+
+.box a p {
+  color: white;
+  font-size: 30px;
+}
+
+.box img {
+  width: 20vh;
+}
+
+.footer {
+  margin-top: 10px;
+  text-align: center;
+  color: #14854f;
+  font-size: 14px;
+}
+
+/* ini untuk laman dzikir */
+.judul {
+  background-color: #14854f;
+}
+
+.judul p {
+  font-size: 23px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.card {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.head {
+  padding: 10px;
+  font-size: 23px;
+  color: white;
+  text-align: center;
+}
+
+.body {
+  padding: 20px;
+  font-size: 23px;
+}
+
+#arab {
+  text-align: right;
+  font-size: 28px;
+  font-family: "Amiri", serif !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 60px;
+}
+
+#trans {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: 50px;
+  width: 65%;
+}
+
+.navigation div img {
+  width: 50%;
+}
+
+.navigation div img:hover,
+.navigation div img:active {
+  transform: scale(93%);
+  transition: all 0.3s;
+}
+
+/* untuk halaman abaout dan contact */
+.center {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .header {
+    height: 15vh;
+    font-size: 18px;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .box a p {
+    font-size: 25px;
+  }
+
+  .head {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .body {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .navigation div img {
+    width: 80%;
+  }
+}
+=======
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: Amiri;
+  src: url(../assets/fonts/Amiri-Regular.ttf);
+}
+
+@font-face {
+  font-family: Isepmisbah;
+  src: url(../assets/fonts/LPMQ-IsepMisbah.ttf);
+}
+
+.header {
+  height: 9vh;
+  font-size: 18px;
+}
+
+.menu {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.bagian1 {
+  width: 100%;
+  background-color: #14854f;
+  border: 1px solid white;
+  padding: 20px;
+}
+.bagian2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  border: 1px solid white;
+  padding: 20px;
+  background-color: #14854f;
+}
+
+.box:hover,
+.box:active {
+  transform: scale(95%);
+  transition: all 0.3s;
+}
+
+.box a p {
+  color: white;
+  font-size: 30px;
+}
+
+.box img {
+  width: 20vh;
+}
+
+.footer {
+  margin-top: 10px;
+  text-align: center;
+  color: #14854f;
+  font-size: 14px;
+}
+
+/* ini untuk laman dzikir */
+.judul {
+  background-color: #14854f;
+}
+
+.judul p {
+  font-size: 23px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.card {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.head {
+  padding: 10px;
+  font-size: 23px;
+  color: white;
+  text-align: center;
+}
+
+.body {
+  padding: 20px;
+  font-size: 23px;
+}
+
+#arab {
+  text-align: right;
+  font-size: 28px;
+  font-family: "Amiri", serif !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 60px;
+}
+
+#trans {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: 50px;
+  width: 65%;
+}
+
+.navigation div img {
+  width: 50%;
+}
+
+.navigation div img:hover,
+.navigation div img:active {
+  transform: scale(93%);
+  transition: all 0.3s;
+}
+
+/* untuk halaman abaout dan contact */
+.center {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .header {
+    height: 15vh;
+    font-size: 18px;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .box a p {
+    font-size: 25px;
+  }
+
+  .head {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .body {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .navigation div img {
+    width: 80%;
+  }
+}
+>>>>>>> 3ee77ea (update favicon)
